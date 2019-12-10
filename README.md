@@ -1,6 +1,8 @@
 Sponsor
 =========
 
+[![Build Status](https://travis-ci.org/deekayen/ansible-role-sponsor.svg?branch=master)](https://travis-ci.org/deekayen/ansible-role-sponsor)
+
 Include a pitch to [sponsor deekayen](https://github.com/sponsors/deekayen) though GitHub Sponsors.
 
 Requirements
