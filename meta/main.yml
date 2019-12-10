@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: sponsor
   author: David Norman
   description: Include a pitch for sponsoring ongoing development.
 
