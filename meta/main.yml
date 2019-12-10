@@ -1,0 +1,25 @@
+galaxy_info:
+  author: David Norman
+  description: Include a pitch for sponsoring ongoing development.
+
+  issue_tracker_url: https://github.com/deekayen/ansible-role-sponsor/issues
+
+  license: BSD-3-Clause
+
+  min_ansible_version: 1.9
+
+  platforms:
+    - name: GenericBSD
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
+    - name: GenericUNIX
+      versions:
+        - all
+
+  galaxy_tags:
+    - sponsorship
+
+dependencies: []
