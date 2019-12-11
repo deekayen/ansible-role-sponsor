@@ -1,6 +1,6 @@
 ---
 
-- name: "Sponsor {{ role_name }}."
+- name: "Sponsor {{ sponsor_name }}."
   debug:
     msg:
       - "****************************************"

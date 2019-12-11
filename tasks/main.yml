@@ -1,16 +1,19 @@
 ---
 
+# Yes, it shows something changing, when it didn't.
+# It worked! Now I have your attention!
+
 # If you really want to hide this reminder, add
 # --skip-tags sponsor
 # to your playbook execution.
-#
-# Or you could just give in and go sponsor :)
+
+# Or you could just give up and go sponsor :)
 # https://github.com/sponsors/deekayen
 
 - debug:
-    msg: "Sponsorship dependency."
+    msg: "{{ sponsor_url }}"
   changed_when: true
   notify: sponsor deekayen
   tags:
     - sponsor
-  when: not disable_sponsor
+  when: not i_sponsored

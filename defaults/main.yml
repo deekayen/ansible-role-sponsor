@@ -1,5 +1,10 @@
 ---
 
-disable_sponsor: false
+# You found the secret key to disable the sponsor
+# banner! I'm trusting you to actually sponsor at
+# any tier before toggling this variable.
+
+i_sponsored: false
+
 sponsor_name: deekayen
 sponsor_url: https://github.com/sponsors/deekayen
