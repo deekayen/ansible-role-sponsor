@@ -11,7 +11,7 @@
 # https://github.com/sponsors/deekayen
 
 - debug:
-    msg: "{{ sponsor_url }}"
+    msg: "{{ nags | shuffle | first }}"
   changed_when: true
   notify: sponsor deekayen
   tags:
