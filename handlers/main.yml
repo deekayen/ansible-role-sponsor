@@ -1,0 +1,13 @@
+---
+
+- name: "Sponsor {{ role_name }}."
+  debug:
+    msg:
+      - "****************************************"
+      - "| Sponsor {{ sponsor_name }} to maintain this    |"
+      - "| role and others like it at           |"
+      - "| {{ sponsor_url }} |"
+      - "****************************************"
+  tags:
+    - sponsor
+  listen: sponsor deekayen
