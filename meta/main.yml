@@ -3,6 +3,7 @@ galaxy_info:
   author: David Norman
   description: Include a pitch for sponsoring ongoing development.
 
+  github_branch: main
   issue_tracker_url: https://github.com/deekayen/ansible-role-sponsor/issues
 
   license: BSD-3-Clause
