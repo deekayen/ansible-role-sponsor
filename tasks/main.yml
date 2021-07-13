@@ -10,7 +10,8 @@
 # Or you could just give up and go sponsor :)
 # https://github.com/sponsors/deekayen
 
-- debug:
+- name: "Sponsor {{ sponsor_name }}."
+  debug:
     msg: "{{ nags | shuffle | first }}"
   changed_when: true
   notify: sponsor deekayen

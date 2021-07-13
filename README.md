@@ -1,7 +1,7 @@
 Sponsor
-=========
+=======
 
-[![Build Status](https://travis-ci.org/deekayen/ansible-role-sponsor.svg?branch=main)](https://travis-ci.org/deekayen/ansible-role-sponsor)
+[![CI](https://github.com/deekayen/ansible-role-sponsor/actions/workflows/ci.yml/badge.svg)](https://github.com/deekayen/ansible-role-sponsor/actions/workflows/ci.yml) [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 
 Include a pitch to [sponsor deekayen](https://github.com/sponsors/deekayen) though GitHub Sponsors.
 
