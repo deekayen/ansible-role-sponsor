@@ -1,0 +1,7 @@
+---
+- name: Assert sponsor_url is an HTTPS URL.
+  ansible.builtin.assert:
+    that:
+      - sponsor_url is match('^https://')
+    fail_msg: "sponsor_url must start with https://, got: {{ sponsor_url }}"
+    quiet: true

@@ -1,7 +1,7 @@
 ---
-
-- hosts: localhost
-  remote_user: root
+- name: Apply the sponsor role.
+  hosts: localhost
+  gather_facts: false
 
   roles:
-    - deekayen.sponsor
+    - role: deekayen.sponsor

@@ -1,7 +1,6 @@
 ---
-
-- name: "Sponsor {{ sponsor_name }}."
-  debug:
+- name: Sponsor {{ sponsor_name }}
+  ansible.builtin.debug:
     msg:
       - "****************************************"
       - "| Sponsor {{ sponsor_name }} to maintain this    |"

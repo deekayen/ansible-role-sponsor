@@ -1,5 +1,4 @@
 ---
-
 # Yes, it shows something changing, when it didn't.
 # It worked! Now I have your attention!
 
@@ -10,11 +9,16 @@
 # Or you could just give up and go sponsor :)
 # https://github.com/sponsors/deekayen
 
-- name: "Sponsor {{ sponsor_name }}."
-  debug:
+- name: Validate role variables.
+  ansible.builtin.import_tasks: assert.yml
+  tags:
+    - always
+
+- name: Sponsor {{ sponsor_name }}
+  ansible.builtin.debug:
     msg: "{{ nags | shuffle | first }}"
   changed_when: true
   notify: sponsor deekayen
   tags:
     - sponsor
-  when: not i_sponsored
+  when: not i_sponsored | bool

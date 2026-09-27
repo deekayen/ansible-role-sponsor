@@ -1,6 +1,7 @@
+---
 galaxy_info:
-  role_name: sponsor
   namespace: deekayen
+  role_name: sponsor
   author: David Norman
   description: Include a pitch for sponsoring ongoing development.
 
@@ -8,8 +9,7 @@ galaxy_info:
   issue_tracker_url: https://github.com/deekayen/ansible-role-sponsor/issues
 
   license: BSD-3-Clause
-
-  min_ansible_version: 1.9
+  min_ansible_version: "2.15"
 
   platforms:
     - name: GenericBSD

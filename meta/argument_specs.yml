@@ -1,0 +1,22 @@
+---
+argument_specs:
+  main:
+    short_description: Include a pitch for sponsoring ongoing development.
+    description:
+      - Prints a reminder to sponsor the role author, and a banner from a
+        handler, unless i_sponsored is true.
+    author:
+      - David Norman
+    options:
+      i_sponsored:
+        type: bool
+        default: false
+        description: Set to true after sponsoring to hide the reminder.
+      sponsor_name:
+        type: str
+        default: deekayen
+        description: Name shown in the reminder.
+      sponsor_url:
+        type: str
+        default: https://github.com/sponsors/deekayen
+        description: Sponsorship page shown in the banner.
